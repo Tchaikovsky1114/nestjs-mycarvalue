@@ -23,6 +23,6 @@ export class User {
 
   @AfterRemove()
   logRemove() {
-    console.log('removed User width id', this.id);
+    console.log('removed User with id', this.id);
   }
 }
